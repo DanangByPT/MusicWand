@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected OnClickListener onClickListener;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        TextView textView ;
+
         super.onCreate(savedInstanceState);
         this.onClickListener = new OnClickListener() ;
         setContentView(R.layout.activity_main);
@@ -64,7 +66,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 // 製造元文字列（"Roland"など）
                 String stringData = prop.getString(info.PROPERTY_MANUFACTURER);
-                TextView textView = (TextView) findViewById(R.id.textViewOfManufacture);
+                textView = (TextView) findViewById(R.id.textViewOfManufacture);
                 textView.setText(stringData);
 
                 // 製品名文字列（"EDIROL SD-90"など）
@@ -109,8 +111,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // ボタン押下時の処理を追加
         Button enevtButton = (Button)findViewById(R.id.buttonOfSoundTest) ;
         enevtButton.setOnClickListener(this);
+        enevtButton = (Button)findViewById(R.id.buttonOfReset);
+        enevtButton.setOnClickListener(this);
+
+        // 楽器オブジェクトを生成
         this.instrument = new Instrument(this.midiControl, 0x00, MidiControl.MIDImode.Mode3) ;
-        this.playMusic = new PlayMusicMajorPentatonic(instrument, PlayMusic.Key.A, 2, 2) ;
+        // 演奏オブジェクトを生成　引数 ： 楽器オブジェクト、キー、上限オクターブ（中心からの相対値）、下限オクターブ（中心からの相対値）
+        // 演奏オブジェクトはスケール種類（メジャー、ナチュラルマイナー、メジャーペンタトニックなど）ごとにクラスを定義
+        this.playMusic = new PlayMusicBlueNote(instrument, PlayMusic.Key.A, 2, 2) ;
+        String string ;
+        string = this.playMusic.getKey().toString() + " " + this.playMusic.getScale().toString();
+        textView = (TextView) findViewById(R.id.textViewOfKeyScale);
+        textView.setText(string);
     }
 
     @Override
@@ -141,6 +153,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         this.toastMessage.show();
 */
         // ボタン押下時に音を出す
-        this.playMusic.Play(); ;
+        if( R.id.buttonOfSoundTest == v.getId()){
+            this.playMusic.Play();
+        }
+        else if( R.id.buttonOfReset == v.getId()){
+            this.playMusic.Stop();
+            this.playMusic.Reset();
+        }
     }
 }

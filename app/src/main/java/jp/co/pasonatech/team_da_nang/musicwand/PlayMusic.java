@@ -43,7 +43,9 @@ public class PlayMusic {
         MajorBlues(30),
         BlueNote(31),
         Hungarian(100),
-        Gipsy(110);
+        Gipsy(110),
+        SpanishPhrygian(120),
+        EightNoteSpanish(121);
 
         private int Value;
 
@@ -51,9 +53,10 @@ public class PlayMusic {
             this.Value = Value ;
         }
     }
-    private static final PlayMusic.Scale scale = Scale.MajorDiatonic;
 
     protected PlayMusic.Key key;
+    protected PlayMusic.Scale scale;
+    protected int[] scaleTable ;
     protected Instrument instrument;
     protected int octave;
     protected int topOctave;
@@ -61,7 +64,6 @@ public class PlayMusic {
     protected int octaveUp;
     protected int octaveDown;
 
-    private static final int[] scaleTable = {0,2,4,5,7,9,11} ;
     protected boolean firstPitch ;
     protected int note ;
     protected Random random ;
@@ -69,16 +71,20 @@ public class PlayMusic {
     public PlayMusic(Instrument instrument, PlayMusic.Key key, int upper, int bottum){
 
         this.key = key ;
-        this.octave = 60 / 12; // 60 : Center C
+        this.Reset();
+        this.octaveUp = 15;
+        this.octaveDown = 15;
         this.topOctave = this.octave + upper;
         this.bottumOctave = this.octave - bottum;
         this.instrument = instrument;
-        this.firstPitch = false ;
-        this.octaveUp = 15;
-        this.octaveDown = 15;
 
         Date date = new Date();
         this.random = new Random(date.getTime());
+    }
+
+    public void Reset(){
+        this.firstPitch = false ;
+        this.octave = 60 / 12; // 60 : Center C
     }
 
     private int decideOvtave() {
@@ -109,8 +115,10 @@ public class PlayMusic {
         this.instrument.allOff();
         this.decideOvtave();
         this.decideNote();
-//        this.instrument.noteOn(this.decideNote(),this.random.nextInt(64)+64) ;
         this.instrument.noteOn(this.octave, this.note,this.random.nextInt(64)+64) ;
+    }
+    public void Stop(){
+        this.instrument.allOff();
     }
     public PlayMusic.Key getKey(){
         return this.key;
@@ -125,47 +133,44 @@ public class PlayMusic {
     public void setOctaveDown( int down ){ this.octaveDown = down%100 ;}
 }
 
-class PlayMusicMajorPentatonic extends PlayMusic{
-    private static final PlayMusic.Scale scale = Scale.MajorPentatonic;
-    private static final int[] scaleTable = {0,2,4,7,9};
+class PlayMusicMajor extends PlayMusic{
+    public PlayMusicMajor(Instrument instrument, PlayMusic.Key key, int upper, int bottum){
+        super(instrument, key, upper, bottum);
+        this.scale = Scale.MajorDiatonic;
+        this.scaleTable = new int[]{0,2,4,5,7,9,11} ;
+    }
+}
 
+class PlayMusicMajorPentatonic extends PlayMusic{
     public PlayMusicMajorPentatonic(Instrument instrument, PlayMusic.Key key, int upper, int bottum){
         super(instrument, key, upper, bottum);
-        this.octaveUp = 30 ;
-        this.octaveDown = 30 ;
+        this.scale = Scale.MajorPentatonic;
+        this.scaleTable = new int[]{0,2,4,7,9} ;
     }
 }
 
 class PlayMusicNaturalMinor extends PlayMusic{
-    private static final PlayMusic.Scale scale = Scale.NaturalMinor;
-    private int[] scaleTable = {0,2,3,5,6,8,10};
-
     public PlayMusicNaturalMinor(Instrument instrument, PlayMusic.Key key, int upper, int bottum){
         super(instrument, key, upper, bottum);
-        this.octaveUp = 10 ;
-        this.octaveDown = 10 ;
+        this.scale = Scale.NaturalMinor;
+        this.scaleTable = new int[]{0,2,3,5,6,8,10};
     }
 }
 
 class PlayMusicHarmonicMinor extends PlayMusic{
-    private static final PlayMusic.Scale scale = Scale.HarmonicMinor;
-    private int[] scaleTable = {0,2,3,5,6,9,10};
-
     public PlayMusicHarmonicMinor(Instrument instrument, PlayMusic.Key key, int upper, int bottum){
         super(instrument, key, upper, bottum);
-        this.octaveUp = 10 ;
-        this.octaveDown = 10 ;
+        this.scale = Scale.HarmonicMinor;
+        this.scaleTable = new int[]{0,2,3,5,6,9,10};
     }
 }
 
 class PlayMusicMerodicMinor extends PlayMusic{
-    private static final PlayMusic.Scale scale = Scale.MerodicMinor;
-    private int[][] scaleTable = {{0,2,3,5,7,9,11},{0,2,3,5,6,8,10}};
-
+    private int[][] scaleTable;
     public PlayMusicMerodicMinor(Instrument instrument, PlayMusic.Key key, int upper, int bottum){
         super(instrument, key, upper, bottum);
-        this.octaveUp = 10 ;
-        this.octaveDown = 10 ;
+        this.scale = Scale.MerodicMinor;
+        this.scaleTable = new int[][]{{0,2,3,5,7,9,11},{0,2,3,5,6,8,10}};
     }
 
     private int decideOvtave(boolean up) {
@@ -228,52 +233,57 @@ class PlayMusicMerodicMinor extends PlayMusic{
 }
 
 class PlayMusicMinorPentatonic extends PlayMusic{
-    private static final PlayMusic.Scale scale = Scale.MinorPentatonic;
-    private int[] scaleTable = {0,3,5,7,10};
-
     public PlayMusicMinorPentatonic(Instrument instrument, PlayMusic.Key key, int upper, int bottum){
         super(instrument, key, upper, bottum);
-        this.octaveUp = 10 ;
-        this.octaveDown = 10 ;
+        this.scale = Scale.MinorPentatonic;
+        this.scaleTable = new int[]{0,3,5,7,10};
     }
 }
 
 class PlayMusicMajorBlues extends PlayMusic{
-    private static final PlayMusic.Scale scale = Scale.MajorBlues;
-    private int[] scaleTable = {0,2,3,5,7,9};
-
     public PlayMusicMajorBlues(Instrument instrument, PlayMusic.Key key, int upper, int bottum){
         super(instrument, key, upper, bottum);
+        this.scale = Scale.MajorBlues;
+        this.scaleTable = new int[]{0,2,3,5,7,9};
     }
 }
 
 class PlayMusicBlueNote extends PlayMusic{
-    private static final PlayMusic.Scale scale = Scale.BlueNote;
-    private int[] scaleTable = {0,3,5,6,7,10};
-
     public PlayMusicBlueNote(Instrument instrument, PlayMusic.Key key, int upper, int bottum){
         super(instrument, key, upper, bottum);
+        this.scale = Scale.BlueNote;
+        this.scaleTable = new int[]{0,3,5,6,7,10};
     }
 }
 
 class PlayMusicHungarian extends PlayMusic{
-    private static final PlayMusic.Scale scale = Scale.Hungarian;
-    private int[] scaleTable = {0,2,3,6,7,8,11};
-
     public PlayMusicHungarian(Instrument instrument, PlayMusic.Key key, int upper, int bottum){
         super(instrument, key, upper, bottum);
-        this.octaveUp = 10 ;
-        this.octaveDown = 10 ;
+        this.scale = Scale.Hungarian;
+        this.scaleTable = new int[]{0,2,3,6,7,8,11};
     }
 }
 
 class PlayMusicGipsy extends PlayMusic{
-    private static final PlayMusic.Scale scale = Scale.Gipsy;
-    private int[] scaleTable = {0,1,4,5,7,8,11};
-
     public PlayMusicGipsy(Instrument instrument, PlayMusic.Key key, int upper, int bottum){
         super(instrument, key, upper, bottum);
-        this.octaveUp = 10 ;
-        this.octaveDown = 10 ;
+        this.scale = Scale.Gipsy;
+        this.scaleTable = new int[]{0,1,4,5,7,8,11};
+    }
+}
+
+class PlayMusicSpanishPhrygian extends PlayMusic{
+    public PlayMusicSpanishPhrygian(Instrument instrument, PlayMusic.Key key, int upper, int bottum){
+        super(instrument, key, upper, bottum);
+        this.scale = Scale.SpanishPhrygian;
+        this.scaleTable = new int[]{0,1,4,5,7,8,10};
+    }
+}
+
+class PlayMusicEightNoteSpanish extends PlayMusic{
+    public PlayMusicEightNoteSpanish(Instrument instrument, PlayMusic.Key key, int upper, int bottum){
+        super(instrument, key, upper, bottum);
+        this.scale = Scale.EightNoteSpanish;
+        this.scaleTable = new int[]{0,1,3,4,5,7,8,10};
     }
 }
