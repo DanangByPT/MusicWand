@@ -1059,6 +1059,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id buttonOfReset
 id buttonOfSoundTest
 id buttonPanel
 id center
@@ -1202,6 +1203,7 @@ id textSpacerNoTitle
 id textStart
 id textViewOfConnectType
 id textViewOfImports
+id textViewOfKeyScale
 id textViewOfManufacture
 id textViewOfName
 id textViewOfOutports

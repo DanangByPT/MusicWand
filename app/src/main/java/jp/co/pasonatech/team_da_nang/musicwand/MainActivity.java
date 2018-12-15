@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         this.instrument = new Instrument(this.midiControl, 0x00, MidiControl.MIDImode.Mode3) ;
         // 演奏オブジェクトを生成　引数 ： 楽器オブジェクト、キー、上限オクターブ（中心からの相対値）、下限オクターブ（中心からの相対値）
         // 演奏オブジェクトはスケール種類（メジャー、ナチュラルマイナー、メジャーペンタトニックなど）ごとにクラスを定義
-        this.playMusic = new PlayMusicBlueNote(instrument, PlayMusic.Key.A, 2, 2) ;
+        this.playMusic = new PlayMusicMinorPentatonic(instrument, PlayMusic.Key.Ef, 2, 2) ;
         String string ;
         string = this.playMusic.getKey().toString() + " " + this.playMusic.getScale().toString();
         textView = (TextView) findViewById(R.id.textViewOfKeyScale);
