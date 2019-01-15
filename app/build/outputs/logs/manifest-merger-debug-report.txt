@@ -1,175 +1,175 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:2:1-24:12
-MERGED from [com.android.support:design:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc02.aar/5a655e535af471bd53042ef481f3c165/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc02.aar/1641b953bbfc5bf817005217cd9318b9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/013eeb5bfc9083e64c1e17bc0d17d0ae/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-fragment:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc02.aar/3ae0c71ae24403e462b810a1affe2f76/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-rc02.aar/af10e034252c619a869061816c9993e0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-rc02.aar/44c135c3389c982d494e0548929732a5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc02.aar/24209da56e0c1d8fa8ae12e9332c0ad9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-rc02.aar/027b1aebfb6194f6f6d002135b3efbb0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-rc02.aar/07940f69a45c7c8e32787f605ae13f22/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-rc02.aar/2faaee110800a8027eae03245421b33d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-rc02.aar/a60f72e7389cfbd629e31730304990c1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-rc02.aar/9e27207e0478ff44c86d9687533dccaa/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-rc02.aar/ffbef5bb222fb228c108a98f5e22ead8/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-rc02.aar/9b997a76e34368ba7554f4539c472d69/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-rc02.aar/8fde422f277565f94c4da077da2d7275/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-rc02.aar/30d905f25aa34ca8f8fcf4bc68ffeb71/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-rc02.aar/b2a62602c0c32d11f4a4838d259f7723/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-rc02.aar/9b5a8ba01e8e11953d81406c658e826b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/bda1eb48ad6cb2481150f107bdee6b02/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/43ead5acdb2d08d062c6fb8b9a2994bf/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-rc02.aar/fb8bc5dbc5bdce374c874afb18863f68/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-rc02.aar/b558a687bbaa1a372efcb472fe876b0f/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1a50211f0a802dd74508365bf90e51f7/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-rc02.aar/e22da32ed51a95a328a6b6a057d3c513/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-rc02.aar/b40ad53e5f1ebe5cfe67cc5ee2169de8/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/print-28.0.0-rc02.aar/30b07a3400d52dd19292f4a74a46f5ff/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/b9469e16315a84eabb4a4ee8ed5ab489/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-rc02.aar/d17f8953cc70704ac8d072ca1cceb3ab/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/018b0014bac0fd947ad8eb625e157240/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b52e60b1270d8c81dd272971fb86fa27/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:2:1-24:12
+MERGED from [com.android.support:design:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\design-28.0.0-rc02.aar\d9efd8f3b0bfaebefe016b5b817ee927\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc02.aar\bf3f7187b8e159cf249019c34c48fde2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\deeef43a7bb6ecada8136c72c09fcf63\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc02.aar\36ffebfdffacbfcd37173338e754d0d3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc02.aar\d188fc65f1d599a3ee4db67f0c862f0f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0-rc02.aar\55a5d9019380cc63a08d9cc2c526c2cc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc02.aar\9e968d07320a8f71218c0023d548e7a5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc02.aar\e3583e823e49aa3179db1802e39b728d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc02.aar\4272870106b67c83d554f887e8370e29\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\transition-28.0.0-rc02.aar\a67466e0390ef82bad50b8ea879d5d76\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc02.aar\7d61d10dae6cc57a6325a586232a2792\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc02.aar\97180895d85a6c6cc42a7de6f7074704\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc02.aar\b4bcfcf3cf8a4d08a1e6756fa94b0ab8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc02.aar\ff51b9fc95ccf9e9a227be55508c339a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc02.aar\bc3e568a7bb50cf7474f290fcb0760e9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc02.aar\1668e19f81ae8eb204fc465b27f5a568\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc02.aar\219be93740d1a8099685d78c539d8c71\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc02.aar\74a49f10d55cd3506c765c15e957739b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\25c09f62a86e1ddac85e42c54ee9a35f\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\f49ae858afd89475e4a2b8cc603a2534\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc02.aar\5815e90234f05ab9a7aae2e62c1fd6ee\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0-rc02.aar\cc3f0edc60d2456a3f8415936edd942a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\35eba373a2cf3cf8e748796c82cfe15f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc02.aar\6f9d74e00a0f90bd1d440afcdceebbe1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc02.aar\c2135f8e364585e53cd3a24a1c15ea80\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc02.aar\345e7230e59c13038995d4a4d3fb1ee7\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\de86a227977ce5a9cf2ed6d25873f40b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc02.aar\bd6647dbf9ea1b53915106d2a2215169\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\3b3a13cc0a1cf0e45cf2b3b804ef4ba2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\f971d477c63823a35c1dedbe6d163f48\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:2:1-24:12
 	package
-		ADDED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:3:5-54
-		INJECTED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml
-		INJECTED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:3:5-54
+		INJECTED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml
-		ADDED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:2:1-24:12
-		INJECTED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:2:1-24:12
+		INJECTED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml
-		ADDED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:2:1-24:12
-		INJECTED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:2:1-24:12
+		INJECTED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:5:5-22:19
-MERGED from [com.android.support:design:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc02.aar/5a655e535af471bd53042ef481f3c165/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc02.aar/5a655e535af471bd53042ef481f3c165/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/013eeb5bfc9083e64c1e17bc0d17d0ae/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/013eeb5bfc9083e64c1e17bc0d17d0ae/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/bda1eb48ad6cb2481150f107bdee6b02/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/bda1eb48ad6cb2481150f107bdee6b02/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/43ead5acdb2d08d062c6fb8b9a2994bf/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/43ead5acdb2d08d062c6fb8b9a2994bf/AndroidManifest.xml:22:5-23:19
+ADDED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:5:5-22:19
+MERGED from [com.android.support:design:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\design-28.0.0-rc02.aar\d9efd8f3b0bfaebefe016b5b817ee927\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\design-28.0.0-rc02.aar\d9efd8f3b0bfaebefe016b5b817ee927\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\deeef43a7bb6ecada8136c72c09fcf63\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\deeef43a7bb6ecada8136c72c09fcf63\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\25c09f62a86e1ddac85e42c54ee9a35f\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\25c09f62a86e1ddac85e42c54ee9a35f\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\f49ae858afd89475e4a2b8cc603a2534\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\f49ae858afd89475e4a2b8cc603a2534\AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/bda1eb48ad6cb2481150f107bdee6b02/AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\25c09f62a86e1ddac85e42c54ee9a35f\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:11:9-40
 activity#jp.co.pasonatech.team_da_nang.musicwand.MainActivity
-ADDED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:12:9-21:20
+ADDED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:12:9-21:20
 	android:label
-		ADDED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:14:13-45
+		ADDED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:14:13-45
 	android:theme
-		ADDED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:15:13-56
+		ADDED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:15:13-56
 	android:name
-		ADDED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:13:13-41
+		ADDED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:13:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:16:13-20:29
+ADDED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:17:17-69
+ADDED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:17:25-66
+		ADDED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:19:17-77
+ADDED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:19:27-74
+		ADDED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:19:27-74
 uses-feature#android.software.midi
-ADDED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:23:5-81
+ADDED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:23:5-81
 	android:required
-		ADDED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:23:56-79
+		ADDED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:23:56-79
 	android:name
-		ADDED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml:23:19-55
+		ADDED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml:23:19-55
 uses-sdk
-INJECTED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml
-INJECTED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:design:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc02.aar/5a655e535af471bd53042ef481f3c165/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc02.aar/5a655e535af471bd53042ef481f3c165/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc02.aar/1641b953bbfc5bf817005217cd9318b9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc02.aar/1641b953bbfc5bf817005217cd9318b9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/013eeb5bfc9083e64c1e17bc0d17d0ae/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/013eeb5bfc9083e64c1e17bc0d17d0ae/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-fragment:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc02.aar/3ae0c71ae24403e462b810a1affe2f76/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc02.aar/3ae0c71ae24403e462b810a1affe2f76/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-rc02.aar/af10e034252c619a869061816c9993e0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-rc02.aar/af10e034252c619a869061816c9993e0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-rc02.aar/44c135c3389c982d494e0548929732a5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-rc02.aar/44c135c3389c982d494e0548929732a5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc02.aar/24209da56e0c1d8fa8ae12e9332c0ad9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc02.aar/24209da56e0c1d8fa8ae12e9332c0ad9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-rc02.aar/027b1aebfb6194f6f6d002135b3efbb0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-rc02.aar/027b1aebfb6194f6f6d002135b3efbb0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-rc02.aar/07940f69a45c7c8e32787f605ae13f22/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-rc02.aar/07940f69a45c7c8e32787f605ae13f22/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-rc02.aar/2faaee110800a8027eae03245421b33d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-rc02.aar/2faaee110800a8027eae03245421b33d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-rc02.aar/a60f72e7389cfbd629e31730304990c1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-rc02.aar/a60f72e7389cfbd629e31730304990c1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-rc02.aar/9e27207e0478ff44c86d9687533dccaa/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-rc02.aar/9e27207e0478ff44c86d9687533dccaa/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-rc02.aar/ffbef5bb222fb228c108a98f5e22ead8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-rc02.aar/ffbef5bb222fb228c108a98f5e22ead8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-rc02.aar/9b997a76e34368ba7554f4539c472d69/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-rc02.aar/9b997a76e34368ba7554f4539c472d69/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-rc02.aar/8fde422f277565f94c4da077da2d7275/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-rc02.aar/8fde422f277565f94c4da077da2d7275/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-rc02.aar/30d905f25aa34ca8f8fcf4bc68ffeb71/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-rc02.aar/30d905f25aa34ca8f8fcf4bc68ffeb71/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-rc02.aar/b2a62602c0c32d11f4a4838d259f7723/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-rc02.aar/b2a62602c0c32d11f4a4838d259f7723/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-rc02.aar/9b5a8ba01e8e11953d81406c658e826b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-rc02.aar/9b5a8ba01e8e11953d81406c658e826b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/bda1eb48ad6cb2481150f107bdee6b02/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/bda1eb48ad6cb2481150f107bdee6b02/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/43ead5acdb2d08d062c6fb8b9a2994bf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/43ead5acdb2d08d062c6fb8b9a2994bf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-rc02.aar/fb8bc5dbc5bdce374c874afb18863f68/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-rc02.aar/fb8bc5dbc5bdce374c874afb18863f68/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-rc02.aar/b558a687bbaa1a372efcb472fe876b0f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-rc02.aar/b558a687bbaa1a372efcb472fe876b0f/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1a50211f0a802dd74508365bf90e51f7/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1a50211f0a802dd74508365bf90e51f7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-rc02.aar/e22da32ed51a95a328a6b6a057d3c513/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-rc02.aar/e22da32ed51a95a328a6b6a057d3c513/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-rc02.aar/b40ad53e5f1ebe5cfe67cc5ee2169de8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-rc02.aar/b40ad53e5f1ebe5cfe67cc5ee2169de8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/print-28.0.0-rc02.aar/30b07a3400d52dd19292f4a74a46f5ff/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/print-28.0.0-rc02.aar/30b07a3400d52dd19292f4a74a46f5ff/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/b9469e16315a84eabb4a4ee8ed5ab489/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/b9469e16315a84eabb4a4ee8ed5ab489/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-rc02.aar/d17f8953cc70704ac8d072ca1cceb3ab/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0-rc02] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-rc02.aar/d17f8953cc70704ac8d072ca1cceb3ab/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/018b0014bac0fd947ad8eb625e157240/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/018b0014bac0fd947ad8eb625e157240/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b52e60b1270d8c81dd272971fb86fa27/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/kazuhiro/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b52e60b1270d8c81dd272971fb86fa27/AndroidManifest.xml:20:5-44
-INJECTED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml
-INJECTED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml
+INJECTED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\design-28.0.0-rc02.aar\d9efd8f3b0bfaebefe016b5b817ee927\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\design-28.0.0-rc02.aar\d9efd8f3b0bfaebefe016b5b817ee927\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc02.aar\bf3f7187b8e159cf249019c34c48fde2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc02.aar\bf3f7187b8e159cf249019c34c48fde2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\deeef43a7bb6ecada8136c72c09fcf63\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\deeef43a7bb6ecada8136c72c09fcf63\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc02.aar\36ffebfdffacbfcd37173338e754d0d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc02.aar\36ffebfdffacbfcd37173338e754d0d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc02.aar\d188fc65f1d599a3ee4db67f0c862f0f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc02.aar\d188fc65f1d599a3ee4db67f0c862f0f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0-rc02.aar\55a5d9019380cc63a08d9cc2c526c2cc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0-rc02.aar\55a5d9019380cc63a08d9cc2c526c2cc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc02.aar\9e968d07320a8f71218c0023d548e7a5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc02.aar\9e968d07320a8f71218c0023d548e7a5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc02.aar\e3583e823e49aa3179db1802e39b728d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc02.aar\e3583e823e49aa3179db1802e39b728d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc02.aar\4272870106b67c83d554f887e8370e29\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc02.aar\4272870106b67c83d554f887e8370e29\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\transition-28.0.0-rc02.aar\a67466e0390ef82bad50b8ea879d5d76\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\transition-28.0.0-rc02.aar\a67466e0390ef82bad50b8ea879d5d76\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc02.aar\7d61d10dae6cc57a6325a586232a2792\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc02.aar\7d61d10dae6cc57a6325a586232a2792\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc02.aar\97180895d85a6c6cc42a7de6f7074704\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc02.aar\97180895d85a6c6cc42a7de6f7074704\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc02.aar\b4bcfcf3cf8a4d08a1e6756fa94b0ab8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc02.aar\b4bcfcf3cf8a4d08a1e6756fa94b0ab8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc02.aar\ff51b9fc95ccf9e9a227be55508c339a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc02.aar\ff51b9fc95ccf9e9a227be55508c339a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc02.aar\bc3e568a7bb50cf7474f290fcb0760e9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc02.aar\bc3e568a7bb50cf7474f290fcb0760e9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc02.aar\1668e19f81ae8eb204fc465b27f5a568\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc02.aar\1668e19f81ae8eb204fc465b27f5a568\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc02.aar\219be93740d1a8099685d78c539d8c71\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc02.aar\219be93740d1a8099685d78c539d8c71\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc02.aar\74a49f10d55cd3506c765c15e957739b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc02.aar\74a49f10d55cd3506c765c15e957739b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\25c09f62a86e1ddac85e42c54ee9a35f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\25c09f62a86e1ddac85e42c54ee9a35f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\f49ae858afd89475e4a2b8cc603a2534\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\f49ae858afd89475e4a2b8cc603a2534\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc02.aar\5815e90234f05ab9a7aae2e62c1fd6ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc02.aar\5815e90234f05ab9a7aae2e62c1fd6ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0-rc02.aar\cc3f0edc60d2456a3f8415936edd942a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0-rc02.aar\cc3f0edc60d2456a3f8415936edd942a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\35eba373a2cf3cf8e748796c82cfe15f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\35eba373a2cf3cf8e748796c82cfe15f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc02.aar\6f9d74e00a0f90bd1d440afcdceebbe1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc02.aar\6f9d74e00a0f90bd1d440afcdceebbe1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc02.aar\c2135f8e364585e53cd3a24a1c15ea80\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc02.aar\c2135f8e364585e53cd3a24a1c15ea80\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc02.aar\345e7230e59c13038995d4a4d3fb1ee7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc02.aar\345e7230e59c13038995d4a4d3fb1ee7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\de86a227977ce5a9cf2ed6d25873f40b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\de86a227977ce5a9cf2ed6d25873f40b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc02.aar\bd6647dbf9ea1b53915106d2a2215169\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc02] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc02.aar\bd6647dbf9ea1b53915106d2a2215169\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\3b3a13cc0a1cf0e45cf2b3b804ef4ba2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\3b3a13cc0a1cf0e45cf2b3b804ef4ba2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\f971d477c63823a35c1dedbe6d163f48\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\lika0\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\f971d477c63823a35c1dedbe6d163f48\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml
-		ADDED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml
-		INJECTED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml
-		ADDED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml
-		INJECTED from /home/kazuhiro/AndroidStudioProjects/MusicWand/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lika0\Documents\MusicWand\app\src\main\AndroidManifest.xml
